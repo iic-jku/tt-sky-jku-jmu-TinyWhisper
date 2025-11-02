@@ -62,7 +62,7 @@ pinout:
   ua[2]: "vinp_I"
   ua[3]: "vinn_I"
   ua[4]: "vout_RF"
-  # ua[5]: ""
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6
