@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# .magicrc — Magic VLSI startup configuration
+#-----------------------------------------------------------
+
+# Load tech file first
+tech load $PDKPATH/libs.tech/magic/sky130A
+
+# Grid Settings
+set Opts(callback) "grid 0.025um; grid on; snap grid; puts stdout \"Executing callback\""
+
+# DRC Settings
+drc style drc(full)
+
+# Add custom cell paths
+# addpath /foss/designs/TinyWhisper/magic/inverter/inverter_lv_en_NF4
+
+# Echo
+echo "Magic startup loaded successfully."
