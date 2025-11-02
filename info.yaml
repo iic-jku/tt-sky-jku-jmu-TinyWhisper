@@ -27,8 +27,8 @@ pinout:
   # Inputs
   ui[0]: "push_tx_i"
   ui[1]: "spi_mosi_i"
-  ui[2]: "uart_rx_i"
-  ui[3]: ""
+  ui[2]: "spi_cs_i"
+  ui[3]: "uart_rx_i"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
@@ -45,9 +45,11 @@ pinout:
   uo[7]: "LO_QX_o"
 
   # Bidirectional pins
-  uio[0]: "spi_miso_o"
-  uio[1]: "uart_tx_o"
-  uio[2]: "afe_en_o"
+  uio[0]: "afe_en_o"
+  # uio[1]: "spi_miso_o" # unused
+  # uio[2]: "uart_tx_o" # unused
+  uio[1]: ""
+  uio[2]: ""
   uio[3]: ""
   uio[4]: ""
   uio[5]: ""
@@ -60,7 +62,7 @@ pinout:
   ua[2]: "vinp_I"
   ua[3]: "vinn_I"
   ua[4]: "vout_RF"
-  ua[5]: ""
+  # ua[5]: ""
 
 # Do not change!
 yaml_version: 6
