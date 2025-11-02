@@ -9,12 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+ToDo (see https://github.com/iic-jku/TinyWhisper)
 
 ## How to test
 
-Explain how to use your project
+ToDo (see https://github.com/iic-jku/TinyWhisper)
 
 ## External hardware
 
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+
+- SPI Master
+- UART to USB Breakout Board
+- RF Power Amplifier + Filters + Antenna
