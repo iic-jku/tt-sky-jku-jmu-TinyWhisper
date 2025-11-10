@@ -55,10 +55,12 @@ C {lab_pin.sym} 1840 -860 3 0 {name=p24 sig_type=std_logic lab=VGND}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 2040 -910 2 0 {name=C2 model=cap_mim_m3_1 W=30.0 L=30.0 MF=1 spiceprefix=X}
 C {lab_pin.sym} 2040 -960 1 0 {name=p5 sig_type=std_logic lab=VDPWR}
 C {lab_pin.sym} 2040 -860 3 0 {name=p6 sig_type=std_logic lab=VGND}
-C {sky130_fd_pr/pfet_01v8.sym} 1940 -640 1 0 {name=M1
+C {lab_pin.sym} 1940 -700 1 0 {name=p10 sig_type=std_logic lab=VDPWR}
+C {lab_pin.sym} 1940 -480 3 0 {name=p11 sig_type=std_logic lab=VGND}
+C {sky130_fd_pr/nfet_01v8.sym} 1940 -640 1 0 {name=M1
 W=25.0
-L=25.0
-nf=1
+L=20.0
+nf=1 
 mult=8
 ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
 pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
@@ -66,8 +68,6 @@ as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
 ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
 nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
 sa=0 sb=0 sd=0
-model=pfet_01v8
+model=nfet_01v8
 spiceprefix=X
 }
-C {lab_pin.sym} 1940 -700 1 0 {name=p10 sig_type=std_logic lab=VDPWR}
-C {lab_pin.sym} 1940 -480 3 0 {name=p11 sig_type=std_logic lab=VGND}
