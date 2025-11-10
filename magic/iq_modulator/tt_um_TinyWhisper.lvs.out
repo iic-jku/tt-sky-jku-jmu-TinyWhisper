@@ -414,6 +414,9 @@ VDD                                        |VDD
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes iq_modulator and iq_modulator are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_3VHAHZ in circuit tt_um_TinyWhisper (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_PP9XRG in circuit tt_um_TinyWhisper (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_DZLWMC in circuit tt_um_TinyWhisper (0)(1 instance)
 
 Cell tt_um_TinyWhisper (0) disconnected node: clk
 Cell tt_um_TinyWhisper (0) disconnected node: ena
@@ -432,35 +435,32 @@ Cell tt_um_TinyWhisper (0) disconnected node: uio_in[4]
 Cell tt_um_TinyWhisper (0) disconnected node: uio_in[5]
 Cell tt_um_TinyWhisper (0) disconnected node: uio_in[6]
 Cell tt_um_TinyWhisper (0) disconnected node: uio_in[7]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[0]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[1]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[2]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[3]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[4]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[5]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[6]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_oe[7]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[0]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[1]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[2]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[3]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[4]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[5]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[6]
-Cell tt_um_TinyWhisper (0) disconnected node: uio_out[7]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[0]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[1]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[2]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[3]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[4]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[5]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[6]
-Cell tt_um_TinyWhisper (0) disconnected node: uo_out[7]
+Class tt_um_TinyWhisper (0):  Merged 8 parallel devices.
+Class tt_um_TinyWhisper (1):  Merged 1 parallel devices.
+Cell tt_um_TinyWhisper (0) disconnected node: clk
+Cell tt_um_TinyWhisper (0) disconnected node: ena
+Cell tt_um_TinyWhisper (0) disconnected node: rst_n
+Cell tt_um_TinyWhisper (0) disconnected node: ua[5]
+Cell tt_um_TinyWhisper (0) disconnected node: ua[6]
+Cell tt_um_TinyWhisper (0) disconnected node: ua[7]
+Cell tt_um_TinyWhisper (0) disconnected node: ui_in[5]
+Cell tt_um_TinyWhisper (0) disconnected node: ui_in[6]
+Cell tt_um_TinyWhisper (0) disconnected node: ui_in[7]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[0]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[1]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[2]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[3]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[4]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[5]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[6]
+Cell tt_um_TinyWhisper (0) disconnected node: uio_in[7]
 Subcircuit summary:
 Circuit 1: tt_um_TinyWhisper               |Circuit 2: tt_um_TinyWhisper               
 -------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (8->1)             |sky130_fd_pr__pfet_01v8 (8->1)             
+sky130_fd_pr__cap_mim_m3_1 (2->1)          |sky130_fd_pr__cap_mim_m3_1 (2->1)          
 iq_modulator (1)                           |iq_modulator (1)                           
-Number of devices: 1                       |Number of devices: 1                       
+Number of devices: 3                       |Number of devices: 3                       
 Number of nets: 12                         |Number of nets: 12                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely with port errors.
@@ -469,10 +469,8 @@ Subcircuit pins:
 Circuit 1: tt_um_TinyWhisper               |Circuit 2: tt_um_TinyWhisper               
 -------------------------------------------|-------------------------------------------
 ui_in[4]                                   |ui_in[4]                                   
-VDPWR                                      |VDPWR                                      
 ua[2]                                      |ua[2]                                      
 ua[1]                                      |ua[1]                                      
-VGND                                       |VGND                                       
 ui_in[3]                                   |ui_in[3]                                   
 ui_in[2]                                   |ui_in[2]                                   
 ua[0]                                      |ua[0]                                      
@@ -480,6 +478,8 @@ ua[4]                                      |ua[4]
 ua[3]                                      |ua[3]                                      
 ui_in[1]                                   |ui_in[1]                                   
 ui_in[0]                                   |ui_in[0]                                   
+VDPWR                                      |VDPWR                                      
+VGND                                       |VGND                                       
 clk                                        |(no matching pin)                          
 ena                                        |(no matching pin)                          
 rst_n                                      |(no matching pin)                          
@@ -497,30 +497,6 @@ uio_in[4]                                  |(no matching pin)
 uio_in[5]                                  |(no matching pin)                          
 uio_in[6]                                  |(no matching pin)                          
 uio_in[7]                                  |(no matching pin)                          
-uio_oe[0]                                  |(no matching pin)                          
-uio_oe[1]                                  |(no matching pin)                          
-uio_oe[2]                                  |(no matching pin)                          
-uio_oe[3]                                  |(no matching pin)                          
-uio_oe[4]                                  |(no matching pin)                          
-uio_oe[5]                                  |(no matching pin)                          
-uio_oe[6]                                  |(no matching pin)                          
-uio_oe[7]                                  |(no matching pin)                          
-uio_out[0]                                 |(no matching pin)                          
-uio_out[1]                                 |(no matching pin)                          
-uio_out[2]                                 |(no matching pin)                          
-uio_out[3]                                 |(no matching pin)                          
-uio_out[4]                                 |(no matching pin)                          
-uio_out[5]                                 |(no matching pin)                          
-uio_out[6]                                 |(no matching pin)                          
-uio_out[7]                                 |(no matching pin)                          
-uo_out[0]                                  |(no matching pin)                          
-uo_out[1]                                  |(no matching pin)                          
-uo_out[2]                                  |(no matching pin)                          
-uo_out[3]                                  |(no matching pin)                          
-uo_out[4]                                  |(no matching pin)                          
-uo_out[5]                                  |(no matching pin)                          
-uo_out[6]                                  |(no matching pin)                          
-uo_out[7]                                  |(no matching pin)                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes tt_um_TinyWhisper and tt_um_TinyWhisper are equivalent.
