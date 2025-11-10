@@ -1,0 +1,217 @@
+* PEX produced on Fri Nov  7 03:06:21 PM CET 2025 using /foss/tools/sak/iic-pex.sh with m=1 and s=1
+* NGSPICE file created from ota_core_hybrid_bm.ext - technology: sky130A
+
+.subckt ota_core_hybrid_bm_pex VSS VDD di_ota_core_en vinp vinn voutn voutp
+X0 inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinn voutp VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X1 VDD ota_core_en_n inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X2 voutp inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X3 inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X4 inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X5 VDD di_ota_core_en ota_core_en_n VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X6 VDD ota_core_en_n inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X7 inverter_lv_en_NF6_6.vin voutp inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X8 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout inverter_lv_en_NF4_0.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X9 ota_core_en_n di_ota_core_en VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X10 inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 voutp inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X11 inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinp voutn VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X12 inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 voutn inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X13 inverter_lv_en_NF6_0.vout vinp inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X14 inverter_lv_en_NF6_6.vin voutn inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X15 inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X16 inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinp inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X17 voutn vinp inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X18 inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinn voutp VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X19 voutp inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X20 VDD ota_core_en_n inverter_lv_en_NF4_1.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X21 voutn vinp inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X22 inverter_lv_en_NF4_1.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X23 inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X24 ota_core_en_n di_ota_core_en VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X25 inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinn voutp VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X26 voutn inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X27 inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X28 inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X29 inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X30 voutp inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X31 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout inverter_lv_en_NF4_0.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X32 VSS VDD inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X33 inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_0.vout voutn VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X34 inverter_lv_en_NF6_6.vin voutp inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X35 inverter_lv_en_NF6_0.vout vinp inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X36 voutn inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X37 inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 voutp inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X38 inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinp inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X39 inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X40 inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X41 inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinn voutp VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X42 voutn vinp inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X43 inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X44 voutp vinn inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X45 inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X46 ota_core_en_n di_ota_core_en VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X47 inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 voutp inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X48 inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X49 voutn inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X50 VSS VDD inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X51 inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_0.vout voutn VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X52 VDD ota_core_en_n inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X53 inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_0.vout voutp VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X54 voutp vinn inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X55 inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinn inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X56 voutn inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X57 inverter_lv_en_NF4_0.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X58 inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X59 inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X60 inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinn inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X61 inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinn voutp VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X62 inverter_lv_en_NF6_0.vout vinn inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X63 voutp vinn inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X64 inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X65 inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X66 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=23.49 ps=177.66 w=3 l=1
+X67 inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 voutp inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X68 VDD ota_core_en_n inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X69 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X70 inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_0.vout voutp VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X71 inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinn inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X72 voutp vinn inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X73 inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 voutn inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X74 inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinp voutn VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X75 inverter_lv_en_NF4_0.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X76 inverter_lv_en_NF6_6.vin voutn inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X77 inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X78 VSS VDD inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X79 inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinn inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X80 inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X81 voutp inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X82 inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinn inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X83 inverter_lv_en_NF6_0.vout vinn inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X84 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=70.47 ps=501.66 w=9 l=1
+X85 inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X86 inverter_lv_en_NF4_1.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X87 inverter_lv_en_NF6_0.vout vinn inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X88 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X89 inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinp inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X90 VSS VDD inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X91 VSS VDD inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X92 inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 voutp inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X93 inverter_lv_en_NF6_0.vout vinp inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X94 inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinp voutn VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X95 inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 voutn inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X96 inverter_lv_en_NF6_6.vin voutn inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X97 inverter_lv_en_NF6_0.vout vinn inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X98 VDD ota_core_en_n inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X99 inverter_lv_en_NF6_6.vin voutp inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X100 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout inverter_lv_en_NF4_0.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X101 inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinp inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X102 inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X103 inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinn inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X104 voutp inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X105 inverter_lv_en_NF4_0.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X106 VSS di_ota_core_en ota_core_en_n VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X107 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X108 inverter_lv_en_NF6_0.vout vinn inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X109 inverter_lv_en_NF4_1.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X110 VSS VDD inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X111 inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinp voutn VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X112 inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinp inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X113 inverter_lv_en_NF6_6.vin voutn inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X114 inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_0.vout voutn VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X115 voutn vinp inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X116 VDD ota_core_en_n inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X117 VDD ota_core_en_n inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X118 inverter_lv_en_NF6_0.vout vinp inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X119 inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 voutp inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X120 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin inverter_lv_en_NF4_1.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X121 voutn inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X122 inverter_lv_en_NF6_0.vout vinn inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X123 inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinp inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X124 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout inverter_lv_en_NF4_0.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X125 inverter_lv_en_NF6_6.vin voutp inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X126 inverter_lv_en_NF4_1.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X127 inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_0.vout voutn VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X128 inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 voutn inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X129 inverter_lv_en_NF4_0.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X130 VDD di_ota_core_en ota_core_en_n VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X131 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X132 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin inverter_lv_en_NF4_1.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X133 inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_0.vout voutp VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X134 voutp vinn inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X135 inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X136 inverter_lv_en_NF6_0.vout vinp inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X137 inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 vinp voutn VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X138 VDD ota_core_en_n inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X139 inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VDD VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X140 inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_0.vout voutn VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X141 inverter_lv_en_NF6_6.vin voutn inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X142 voutn vinp inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X143 inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 inverter_lv_en_NF6_0.vout voutp VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X144 VSS VDD inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X145 VSS VDD inverter_lv_en_NF4_0.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X146 voutn inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X147 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin inverter_lv_en_NF4_1.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X148 inverter_lv_en_NF4_0.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X149 inverter_lv_en_NF6_6.vin voutp inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X150 inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_0.vout voutn VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X151 inverter_lv_en_NF4_1.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X152 inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 voutn inverter_lv_en_NF6_6.vin VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X153 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X154 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0 ps=0 w=3 l=1
+X155 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin inverter_lv_en_NF4_1.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X156 voutp vinn inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X157 inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_0.vout voutp VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X158 inverter_lv_en_NF6_0.vout vinp inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X159 inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X160 inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 ota_core_en_n VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=2.61 ps=18.58 w=9 l=1
+X161 VSS VDD inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X162 VSS VDD inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X163 VSS di_ota_core_en ota_core_en_n VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X164 VDD ota_core_en_n inverter_lv_en_NF4_0.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X165 inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 inverter_lv_en_NF6_0.vout voutp VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X166 VDD ota_core_en_n inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=1.305 ps=9.29 w=9 l=1
+X167 inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 voutn inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X168 ota_core_en_n di_ota_core_en VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X169 inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinp voutn VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X170 inverter_lv_en_NF4_0.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_0.vout VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X171 inverter_lv_en_NF6_6.vin voutp inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X172 inverter_lv_en_NF6_6.vin voutn inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X173 voutn vinp inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X174 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=2.61 pd=18.58 as=0 ps=0 w=9 l=1
+X175 inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.305 pd=9.29 as=1.305 ps=9.29 w=9 l=1
+X176 VSS VDD inverter_lv_en_NF4_1.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X177 voutp inverter_lv_en_NF6_0.vout inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X178 inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 vinn voutp VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X179 inverter_lv_en_NF4_1.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 inverter_lv_en_NF6_6.vin inverter_lv_en_NF6_6.vin VSS sky130_fd_pr__nfet_01v8_lvt ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+C0 voutp VSS 41.6354f
+C1 voutn VSS 44.9795f
+C2 vinn VSS 20.3737f
+C3 vinp VSS 21.6832f
+C4 di_ota_core_en VSS 4.83635f
+C5 VDD VSS 0.34035p
+C6 inverter_lv_en_NF6_8.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C7 inverter_lv_en_NF6_7.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C8 inverter_lv_en_NF4_1.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS 2.49069f
+C9 inverter_lv_en_NF6_6.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C10 inverter_lv_en_NF6_5.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C11 inverter_lv_en_NF6_4.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C12 inverter_lv_en_NF6_3.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C13 inverter_lv_en_NF6_2.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C14 inverter_lv_en_NF4_0.sky130_fd_pr__nfet_01v8_lvt_XCBGUP_0.S1 VSS 2.49069f
+C15 inverter_lv_en_NF6_1.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C16 inverter_lv_en_NF6_0.sky130_fd_pr__nfet_01v8_lvt_WHJEU4_0.S1 VSS 3.36642f
+C17 inverter_lv_en_NF6_8.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C18 inverter_lv_en_NF6_7.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C19 inverter_lv_en_NF4_1.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VSS 5.82216f
+C20 inverter_lv_en_NF6_6.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C21 inverter_lv_en_NF6_6.vin VSS 51.5669f
+C22 inverter_lv_en_NF6_5.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C23 inverter_lv_en_NF6_4.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C24 inverter_lv_en_NF6_3.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C25 inverter_lv_en_NF6_2.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C26 inverter_lv_en_NF4_0.sky130_fd_pr__pfet_01v8_lvt_P4JB26_0.S1 VSS 5.82216f
+C27 inverter_lv_en_NF6_1.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C28 inverter_lv_en_NF6_0.vout VSS 75.0436f
+C29 inverter_lv_en_NF6_0.sky130_fd_pr__pfet_01v8_lvt_P4QH36_0.S1 VSS 7.84314f
+C30 ota_core_en_n VSS 37.237f
+.ends
+

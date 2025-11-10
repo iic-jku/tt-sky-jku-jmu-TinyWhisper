@@ -1,0 +1,65 @@
+* PEX produced on Thu Nov  6 02:07:14 PM CET 2025 using /foss/tools/sak/iic-pex.sh with m=1 and s=1
+* NGSPICE file created from transmission_gate_w_dummy.ext - technology: sky130A
+
+.subckt transmission_gate_w_dummy_pex VDD di_tg_ctrl_n VSS di_tg_ctrl v_a v_b
+X0 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X1 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X2 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X3 v_b di_tg_ctrl_n v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=4.6 ps=37.2 w=1 l=0.15
+X4 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X5 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X6 v_a di_tg_ctrl v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=13.8 ps=93.2 w=3 l=0.15
+X7 v_a di_tg_ctrl_n v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=4.6 ps=37.2 w=1 l=0.15
+X8 v_a di_tg_ctrl v_a VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X9 v_a di_tg_ctrl v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X10 v_a di_tg_ctrl v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X11 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X12 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X13 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X14 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X15 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X16 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X17 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X18 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X19 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X20 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X21 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X22 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X23 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X24 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X25 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X26 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X27 v_a di_tg_ctrl_n v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X28 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X29 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X30 v_a di_tg_ctrl_n v_a VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0 ps=0 w=1 l=0.15
+X31 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X32 v_a di_tg_ctrl_n v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X33 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X34 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X35 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X36 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X37 v_b di_tg_ctrl_n v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X38 v_b di_tg_ctrl_n v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X39 v_a di_tg_ctrl_n v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X40 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X41 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X42 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X43 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X44 v_b di_tg_ctrl v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=13.8 ps=93.2 w=3 l=0.15
+X45 v_b di_tg_ctrl v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X46 v_b di_tg_ctrl_n v_a VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X47 v_b di_tg_ctrl v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X48 v_b di_tg_ctrl v_b VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X49 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X50 v_b di_tg_ctrl_n v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X51 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X52 v_b di_tg_ctrl v_a VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X53 v_a di_tg_ctrl v_b VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+C0 v_b VSS 13.8211f
+C1 v_a VSS 13.664f
+C2 di_tg_ctrl_n VSS 6.68927f
+C3 di_tg_ctrl VSS 8.64907f
+C4 VDD VSS 14.0717f
+.ends
+

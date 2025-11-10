@@ -1,0 +1,100 @@
+* PEX produced on Sat Nov  8 08:58:00 PM CET 2025 using /foss/tools/sak/iic-pex.sh with m=1 and s=1
+* NGSPICE file created from lo_logic.ext - technology: sky130A
+
+.subckt lo_logic_pex vin_LO vout_LO vout_LO_inv VSS VDD
+X0 vin_LO VDD inverter_NF2_2.vin VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0.165 ps=1.33 w=1 l=0.15
+X1 VDD inverter_NF2_4.vout vout_LO VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X2 vout_LO inverter_NF2_4.vout VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X3 vout_LO inverter_NF2_4.vout VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X4 VDD inverter_NF2_4.vout vout_LO VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X5 VDD inverter_NF2_2.vin inv_cross VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X6 VDD inverter_NF2_4.vout vout_LO VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X7 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=34.68 ps=239.12 w=3 l=0.15
+X8 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=11.56 ps=95.12 w=1 l=0.15
+X9 buf_cross inverter_NF2_0.vout VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X10 VSS inverter_NF2_0.vout buf_cross VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X11 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X12 inverter_NF2_2.vin VSS vin_LO VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.93 ps=6.62 w=3 l=0.15
+X13 VDD inverter_NF2_3.vout vout_LO_inv VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X14 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X15 inverter_NF2_4.vout buf_cross VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X16 inverter_NF2_0.vout vin_LO VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X17 VSS buf_cross inverter_NF2_4.vout VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X18 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X19 VDD inv_cross inverter_NF2_3.vout VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X20 vout_LO_inv inverter_NF2_3.vout VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X21 VSS inverter_NF2_2.vin inv_cross VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X22 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0 ps=0 w=1 l=0.15
+X23 VSS vin_LO inverter_NF2_0.vout VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X24 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X25 vout_LO_inv inverter_NF2_3.vout VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X26 VSS inverter_NF2_3.vout vout_LO_inv VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X27 vout_LO inverter_NF2_4.vout VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X28 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X29 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X30 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X31 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X32 VDD buf_cross inv_cross VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=3.81 ps=8.54 w=3 l=0.15
+X33 VSS inv_cross inverter_NF2_3.vout VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X34 vout_LO_inv inverter_NF2_3.vout VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X35 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X36 VDD inverter_NF2_3.vout vout_LO_inv VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X37 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0 ps=0 w=1 l=0.15
+X38 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X39 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X40 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X41 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X42 VSS inverter_NF2_4.vout vout_LO VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X43 vout_LO inverter_NF2_4.vout VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X44 vout_LO inverter_NF2_4.vout VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X45 VSS inverter_NF2_4.vout vout_LO VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X46 inv_cross inverter_NF2_2.vin VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X47 VSS inverter_NF2_4.vout vout_LO VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X48 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X49 VDD inv_cross buf_cross VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=3.81 ps=8.54 w=3 l=0.15
+X50 VSS buf_cross inv_cross VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=1.27 ps=4.54 w=1 l=0.15
+X51 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X52 inverter_NF2_3.vout inv_cross VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X53 VSS inverter_NF2_3.vout vout_LO_inv VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X54 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0 ps=0 w=1 l=0.15
+X55 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X56 buf_cross inverter_NF2_0.vout VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X57 VDD inverter_NF2_0.vout buf_cross VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X58 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X59 vout_LO inverter_NF2_4.vout VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X60 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X61 VSS inv_cross buf_cross VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=1.27 ps=4.54 w=1 l=0.15
+X62 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0 ps=0 w=1 l=0.15
+X63 vout_LO_inv inverter_NF2_3.vout VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X64 inverter_NF2_4.vout buf_cross VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X65 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X66 inv_cross inverter_NF2_2.vin VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X67 inverter_NF2_0.vout vin_LO VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X68 VDD buf_cross inverter_NF2_4.vout VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X69 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X70 vin_LO VSS inverter_NF2_2.vin VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0.495 ps=3.33 w=3 l=0.15
+X71 vout_LO_inv inverter_NF2_3.vout VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X72 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0 ps=0 w=1 l=0.15
+X73 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0 ps=0 w=1 l=0.15
+X74 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.93 pd=6.62 as=0 ps=0 w=3 l=0.15
+X75 VDD vin_LO inverter_NF2_0.vout VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X76 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X77 inverter_NF2_2.vin VDD vin_LO VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.31 ps=2.62 w=1 l=0.15
+X78 VSS inverter_NF2_3.vout vout_LO_inv VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X79 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0 ps=0 w=3 l=0.15
+X80 VDD inverter_NF2_3.vout vout_LO_inv VDD sky130_fd_pr__pfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.15
+X81 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0 ps=0 w=1 l=0.15
+X82 inverter_NF2_3.vout inv_cross VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X83 vout_LO_inv inverter_NF2_3.vout VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+C0 vout_LO_inv VSS 4.27075f
+C1 vout_LO VSS 4.27075f
+C2 vin_LO VSS 4.18304f
+C3 VDD VSS 74.1818f
+C4 inverter_NF2_3.vout VSS 4.48926f
+C5 inverter_NF2_2.vin VSS 2.83622f
+C6 inverter_NF2_4.vout VSS 4.48926f
+C7 inv_cross VSS 7.66312f
+C8 buf_cross VSS 7.89561f
+C9 inverter_NF2_0.vout VSS 2.82434f
+.ends
+

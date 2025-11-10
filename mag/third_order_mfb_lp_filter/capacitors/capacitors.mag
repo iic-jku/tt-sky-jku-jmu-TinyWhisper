@@ -1,9 +1,0 @@
-magic
-tech sky130A
-magscale 1 2
-timestamp 1756739912
-use sky130_fd_pr__cap_mim_m3_1_9B3NQL  sky130_fd_pr__cap_mim_m3_1_9B3NQL_0
-timestamp 1756739912
-transform 1 0 7951 0 1 2620
-box -13251 -4500 13251 4500
-<< end >>
